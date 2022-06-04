@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     border: 1px solid #000;
+    background-image: url("https://launion.com.mx/images/2021/tips-para-que-tu-pasto-crezca-parejito-y-rapido-1.jpg")
 }
 
 #start, .boardInfo {
@@ -44,16 +45,19 @@
 }
 
 .emptySquare {
-    background-color: #6aeb9b;
+    background-color: none;
 }
 
 .snakeSquare {
-    background-color: #f0889f;
+    background-color: #e79fae;
     border: 1px solid #000;
+    border-radius: 50%;
     
 }
 
 .foodSquare {
-    background-color: #f06666;
+    background-color: #e02e2e;
     border: 1px solid #000;
+    border-radius: 50%;
+    
 }
